@@ -1,0 +1,59 @@
+.row{  
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -530px;
+    margin-left: -555px;
+    
+}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH6AJBeclwYymPzeRs306z9guDnZBjUuWCAQ&usqp=CAU");
+    /* background-size: cover; */
+    background-size:200 px 200px;
+    background-position: center;
+}
+
+
+
+
+.card {
+    background-image: url("https://e0.pxfuel.com/wallpapers/406/349/desktop-wallpaper-red-mountains-minimalist-laptop-red-1360x768.jpg");
+    
+    border: none;
+    box-shadow: 8px 8px 20px rgba(243, 147, 3, 0.985);
+    border-radius: 10px; 
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-group-item {
+    background-color: #ffffff; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-sm {
+    margin-left: 10px;
+}
+
+
+.btn-primary, .btn-danger {
+    border: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.fa-edit, .fa-trash {
+    cursor: pointer;
+}
+
+
+.btn-primary:hover, .btn-danger:hover {
+    opacity: 0.8;
+}
